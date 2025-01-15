@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section id="Home">
+    <div class="nav" role="navigation">
+        <span id="logo"> Mangesh Navghare </span>
+        <div class="nav-link">
+            <a href="#Home" style="color: rgb(61, 61, 61);">Home</a>
+            <a href="#About" style="color: rgb(61, 61, 61);">About</a>
+            <a href="#Projects" style="color: rgb(61, 61, 61);">Projects</a>
+            <a href="#Contact" style="color: rgb(61, 61, 61);">Contact</a>
+        </div>
+        
+    </div>
+
+
+    <div class="hamburger-nav">
+        <span id="logo">Mangesh Navghare</span>
+        <button class="hamburger" onclick="toggleNav()" aria-label="Toggle Navigation">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="nav-mobile" role="menu"></div>
+    </div>
+
+        <div class="section_1">
+            <!-- <div id="sec-container"> -->
+                <div class="page_1">
+                    <span id="img_1">
+                        <img class="img1" src="mangesh (2).jpg" width="640" height="360" alt="Profile image of Mangesh Navghare">
+                    </span>
+                </div>
+                <div class="page_2">
+                    <div class="page_2_part1">
+                        <p class="page_2_text"><b>Hello, I'm</b></p>
+                        <h1 class="page_2_text1">Mangesh Navghare</h1>
+                        <p class="page_2_text2"><b>Software Developer</b></p>
+                        <div class="page_2_part2">
+                            <a href="www.linkedin.com/in/mangesh-navghare-015b94259" target="_blank" class="social-link" aria-label="LinkedIn">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/mangesh0901" target="_blank" class="social-link" aria-label="GitHub">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="Resume.html" target="_blank" aria-label="Resume">
+                                <button class="btn">
+                                    <b>Resume</b>
+                                </button>
+                            </a>
+        
+                        </div>
+                    </div>
+                </div>
+            <!-- </div> -->
+            
+        </div>
+    </section>
+
+
+    <section id="About">
+        <div id="About-container">
+            <!-- <div id="Profile-box">
+                <img class="img2" src="image4.png" alt="Profile image of Ram Pawar">
+            </div> -->
+            <div id="About-box">
+                <div id="About-title">
+                    <!-- <i class="fa-solid fa-code"></i> -->
+                    <span><ul>A</ul><ul>B</ul><ul>O</ul><ul>U</ul><ul>T</ul><ul>M</ul><ul>E</ul></span>
+                </div>
+                <h1>Who am I</h1>
+                <p>
+                    <b>
+                        Welcome to my portfolio! I'm Computer Engineering Student. Currentaly diving into Web Development. Solved Many Programming Challenges related to DSA on online platform like Leetcode, Codechef and Codeforces.
+                        I have successfully completed numerous projects, ranging from small-scale applications to large enterprise systems.
+                    </b>
+                </p>
+                <!-- <div id="content-box">
+                    <span class="content-box-skills">
+                        <p><i class="fa-brands fa-html5" style="color: #fe6716;"></i> HTML5</p>
+                    </span>
+                    <span class="content-box-skills">
+                        <p><i class="fa-brands fa-css3-alt" style="color: #2e74ff;"></i> CSS3</p>
+                    </span>
+                    <span class="content-box-skills">
+                        <p><i class="fa-brands fa-js" style="color: #FFD43B;"></i> JavaScript</p>
+                    </span>
+                    <span class="content-box-skills">
+                        <p><i class="fa-brands fa-react" style="color: #74C0FC;"></i> React</p>
+                    </span>
+                </div> -->
+                <button id="btn"><b>Download CV</b></button>
+            </div>
+            <div id="Profile-box">
+                <img class="img2" src="mangesh(3).jpg" alt="Profile image of Mangesh Navghare">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Contact">
+       <div id="Contact-section">
+            <div id="Contact-box">
+                <h1 class="heading">Get in touch</h1>
+                <p>Feel free to contact me</p>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input placeholder="Name" type="text" id="name">
+                    </div>
+                    <div class="form-group">
+                        <input placeholder="Email" type="email" id="email">
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input placeholder="Subject" type="text" id="subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Message" id="message"></textarea>
+                    </div>
+
+                    <button type="submit">SENT MESSAGE <i class="fa-solid fa-arrow-right" style="color: #777;"></i></button>
+                </form>
+            </div>
+       </div>
+    </section>
+    
+
+    <footer>
+        &copy; Mangesh Navghare 2024
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
